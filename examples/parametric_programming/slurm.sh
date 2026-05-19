@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=neuromancer_job
-#SBATCH --output=/home/g202210120/neuromancer/logs/neuromancer_%j.out
-#SBATCH --error=/home/g202210120/neuromancer/logs/neuromancer_%j.err
+#SBATCH --output=/home/g202210120/neuromancer/examples/parametric_programming/logs/neuromancer_%j.out
+#SBATCH --error=/home/g202210120/neuromancer/examples/parametric_programming/logs/neuromancer_%j.err
 #SBATCH --time=24:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
