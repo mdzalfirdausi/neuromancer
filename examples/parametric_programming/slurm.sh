@@ -9,7 +9,7 @@
 #SBATCH --mem=64G
 #SBATCH --partition=gpu_x450
 #SBATCH --gres=gpu:1
-#SBATCH --chdir=/home/g202210120/neuromancer
+#SBATCH --chdir=/home/g202210120/neuromancer/examples/parametric_programming
 
 # Exit immediately if a command exits with a non-zero status
 set -e
